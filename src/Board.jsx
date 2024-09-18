@@ -8,7 +8,7 @@ function Square({ value, onSquareClick }) {
   );
 }
 
-function Board({ xIsNext, squares, onPlay }) {
+export default function Board({ xIsNext, squares, onPlay }) {
   function handleClick(i) {
     if (calculateWinner(squares) || squares[i]) {
       return;
@@ -21,6 +21,7 @@ function Board({ xIsNext, squares, onPlay }) {
     } else {
       nextSquares[i] = 'O';
     }
+    
     onPlay(nextSquares);
   }
 
@@ -53,6 +54,4 @@ function Board({ xIsNext, squares, onPlay }) {
       </div>
     </>
   );
-}
-
-export default Board;
+};
