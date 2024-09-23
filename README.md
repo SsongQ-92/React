@@ -1,8 +1,8 @@
-# React + Vite
+# React 공부를 위한 Repository
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React 자습서
 
-Currently, two official plugins are available:
+## Modern React Deep Dive 공부
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- docs 폴더
+
